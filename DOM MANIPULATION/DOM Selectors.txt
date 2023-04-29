@@ -1,0 +1,29 @@
+DOM Selectors
+-------------
+getElementByTagName - it accept a tagname from html
+getElementsByClassName - it accept a class from html
+getElementById - it accept an id from html
+
+querySelector - this selects the first item of anything you pass in the selector
+querySelectorAll -  this selects all the items in the selector
+
+getAttribute - this is to get the property of an attribute with the querySelector
+setAttribute - this sets the property of an attribute with the querySelector
+
+##Changing Styles
+style.{property} //ok
+
+className //best
+classList //best
+
+classList.add
+classList.remove
+classList.toggle
+
+##Bonus
+innerHTML //DANGEROUS
+
+parentElement
+children
+
+##it is important to CACHE selectors in variables

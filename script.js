@@ -100,3 +100,8 @@ while (counter > 0) {
     console.log(counter);
     counter--;
 }
+
+// The forEach loop
+todos.forEach(function(i) {
+    console.log(i);
+})
